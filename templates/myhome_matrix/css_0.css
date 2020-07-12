@@ -1,0 +1,13 @@
+.matrix {
+  font-family:Lucida Console, Courier, Monotype; 
+  font-size:12pt; 
+  background-color: Black;
+  text-align:center; 
+  width:10px; 
+  padding:0px; 
+  margin:0px;
+  }
+
+.item{
+  background-color: Black;
+  }

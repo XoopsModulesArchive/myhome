@@ -1,0 +1,30 @@
+<!-- Start - Module:myhome - Template:<{$mode}> -->
+
+<{if $css_link}>
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}><{$css_link}>" />
+<{/if}>
+
+<{if $script_link}>
+<script language="JavaScript"
+        type="text/javascript" 
+        src="<{$xoops_url}><{$script_link}>">
+        </script>
+<{/if}>
+
+<div  class="item"<{if $background}> style="background: url('<{$background}>') black no-repeat right top;"<{/if}>>
+
+<{if $banner}><div align="center"><{$banner}></div><p /><{/if}>
+
+<{if $texte}><div id="matrix" class="itemText"><{$texte}></div><{/if}>
+
+<{if $admin}>
+     <table class="itemAdmin">
+     <tr>
+       <td width="80%"><{$admin}></td>
+       <td><{$admin_settings}></td>
+     </tr>
+     </table>
+<{/if}>
+
+</div>
+<!-- End - Module:myhome - Template:<{$mode}> -->
